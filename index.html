@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
+    <title>Bai tap 4</title>
+</head>
+
+<body>
+    <div class="header">
+        <a href="#" id="banner"><img src="src/img/banner_2021.png" alt="banner_2021"></a>
+        <div class="tool">
+            <div class="login">
+                <i class="fas fa-sign-in-alt"></i>
+                <a href="#">Đăng nhập</a>
+            </div>
+            <div class="search">
+                <input type="search" placeholder="Search this site...">
+                <input type="image" src="src/img/searchbutton.png">
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="container">
+            <ul class="nav">
+                <li class="nav-Item">
+                    <a href="#">
+                        <span class="icon">
+                            <i class="fas fa-home"></i>
+                        </span>
+                        <span>Trang chủ</span>
+                    </a>
+
+                </li>
+                <li class="nav-Item">
+                    <a href="#">
+                        <span class="icon">
+                            <i class="fas fa-info-circle"></i>
+                        </span>
+                        <span>Giới thiệu</span>
+                    </a>
+
+                </li>
+                <li class="nav-Item">
+                    <a href="#">
+                        <span class="icon">
+                            <i class="fas fa-file-alt"></i>
+                        </span>
+                        <span>Tra cứu<br>GBNH</span>
+                    </a>
+
+                </li>
+                <li class="nav-Item">
+                    <a href="#">
+                        <span class="icon">
+                            <i class="fas fa-file-alt"></i>
+                        </span>
+                        <span>Bảng vàng<br>thành tích</span>
+                    </a>
+
+                </li>
+                <li class="nav-Item">
+                    <a href="#">
+                        <span class="icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </span>
+                        <span>Điểm chuẩn<br>hằng năm</span>
+                    </a>
+
+                </li>
+                <li class="nav-Item">
+                    <a href="#">
+                        <span class="icon">
+                            <i class="fas fa-layer-group"></i>
+                        </span>
+                        <span>Tham quan<br>ảo UIT</span>
+                    </a>
+
+                </li>
+                <li class="nav-Item">
+                    <a href="#">
+                        <span class="icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </span>
+                        <span>Liên hệ</span>
+                    </a>
+
+                </li>
+            </ul>
+            <nav id="link"
+                style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);"
+                aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Nhà</a></li>
+                    <li class="breadcrumb-item"><a href="#">Giới thiệu</a></li>
+                </ol>
+            </nav>
+            <div class="main">
+                <h1 class="page-title">Trường Đại học Công nghệ Thông tin</h1>
+                <div class="content">
+
+                    <p class="info-right"><strong>Khu phố 6, P. Linh Trung, Q. Thủ Đức, Tp.Hồ Chí Minh</strong></p>
+                    <p class="info-right"><strong>ĐT: (08)37252002</strong></p>
+                    <p class="info-right"><strong>Website: <a
+                                href="http://www.uit.edu.vn">http://www.uit.edu.vn</a></strong></p>
+                    <p class="info-center"><img src="src/img/dai-hoc-uit-3.jpg" alt=""></p>
+
+                    <p>&nbsp;</p>
+                    <p class="info-text">Trường Đại học Công nghệ Thông tin (ĐH CNTT), ĐHQG-HCM là trường đại học công
+                        lập chuyên ngành CNTT được thành lập theo Quyết định số 134/2006/QĐ-TTg ngày 08/06/2006 của Thủ
+                        tướng Chính phủ trên cơ sở Trung tâm Phát triển Công nghệ Thông tin. Trường khai giảng năm học
+                        đầu tiên vào tháng 10/2006.</p>
+                    <p class="info-text">Trường ĐH CNTT là một trung tâm đào tạo đại học, sau đại học, cung cấp nguồn
+                        nhân lực, đội ngũ chuyên gia trình độ cao trong lĩnh vực Công nghệ thông tin và Truyền thông
+                        (CNTT&TT), có năng lực phát triển tự thân ngành CNTT&TT và năng lực triển khai ứng dụng CNTT&TT
+                        trong các ngành công nghệ cao, quản lý, kinh tế - tài chính, có năng lực sáng tạo, làm việc
+                        trong môi trường quốc tế. Trường ĐH CNTT thực hiện nghiên cứu khoa học và chuyển giao công nghệ
+                        CNTT&TT và các công nghệ liên quan, triển khai các ứng dụng CNTT&TT trong các lĩnh vực công nghệ
+                        cao, quản lý kinh tế, tài chính theo nhu cầu phát triển kinh tế của đất nước và phù hợp với xu
+                        thế phát triển của khu vực Đông Nam Á và thế giới.</p>
+                    <p class="info-text">Trường ĐH CNTT hướng đến trở thành một trường đại học trọng điểm về CNTT&TT của
+                        Việt Nam về nghiên cứu và ứng dụng CNTT của cả nước và khu vực Đông Nam Á.</p>
+                    <p class="info-text">Các chương trình đào tạo của Trường ĐH CNTT được chia thành ba cấp độ: đại học,
+                        cao học và tiến sĩ với những mục tiêu đào tạo khác nhau.</p>
+
+                    <blockquote>
+                        <a
+                            href="https://tuyensinh.uit.edu.vn/2017-thong-tin-tuyen-sinh-dai-hoc-chinh-quy-nam-2017-cua-truong-dai-hoc-cong-nghe-thong-tin">Thông
+                            tin xét tuyển Đại học Công nghệ Thông tin năm 2018</a>
+                    </blockquote>
+
+                    <p class="info-text"><strong>1. Chương trình Cử nhân tài năng</strong> ngành Khoa học máy tính và
+                        chương trình <strong>Kỹ sư tài năng</strong><span> An toàn Thông tin tuyển mỗi chương trình 40
+                            thí sinh đã trúng tuyển vào Trường theo thứ tự ưu tiên sau:</span></p>
+                    <p class="info-text">- Thí sinh thuộc diện tuyển thẳng.</p>
+                    <p class="info-text">- Thí sinh đạt giải trong kỳ thi chọn học sinh giỏi quốc gia THPT.</p>
+                    <p class="info-text">- Thí sinh đạt kết quả cao trong kỳ thi tuyển sinh đại học.</p>
+
+                    <p class="info-text"><strong>2. Chương trình Tiên tiến:</strong> tuyển 40 sinh viên cho ngành Hệ
+                        thống thông tin theo quy trình và chương trình của Đại học Oklahoma State University, Hoa kỳ.
+                    </p>
+                    <p class="info-text">- Điều kiện xét tuyển: thí sinh trúng tuyển vào Trường Đại học Công nghệ Thông
+                        tin năm 2018; có điểm TOEFL >= 450 hoặc tương đương. Nếu chưa đạt chuẩn đầu vào sinh viên sẽ
+                        tham gia học tăng cường Tiếng Anh song song chương trình đào tạo.</p>
+                    <p class="info-text">- Học phí: 35 – 45 triệu/năm.</p>
+                    <p class="info-text"><strong>4. Chương trình Chất lượng cao với học phí tương ứng:</strong> tuyển
+                        sinh vào các ngành Hệ thống Thông tin, Kỹ thuật Máy tính, Kỹ thuật Phần mềm, Khoa học máy Tính,
+                        An Toàn Thông tin, Mạng máy tính và Truyền thông Dữ liệu, Công nghệ Thông tin ( Chất lượng cao
+                        định hướng Nhật Bản).</p>
+
+                </div>
+                <h2>Đội ngũ giảng viên</h2>
+                <div class="table-content">
+                    <div class="nav-table">
+                        <ul>
+                            <li id="item-list-1" class="item-list">Khoa học Máy tính</li>
+                            <li id="item-list-2" class="item-list">Kỹ thuật Máy tính</li>
+                            <li id="item-list-3" class="item-list">Kỹ thuật Phần mềm</li>
+                            <li id="item-list-4" class="item-list">Hệ thông Thông tin &<br>Thương mại điện tử</li>
+                            <li id="item-list-5" class="item-list">MMT&TT và An toàn<br>Thông tin</li>
+                            <li id="item-list-6" class="item-list">KH&KTTT</li>
+                            <li id="item-list-7" class="item-list">Bộ môn</li>
+                            <li id="item-list-8" class="item-list">PTN truyền thông đa<br>phương tiện</li>
+                        </ul>
+                    </div>
+                    <div id="container-table">
+                        <div id="table1" class="table">
+                            <div id="teacher11" class="teacher">
+                                <div class="anhthe">
+                                    <img src="./src/cardImg/80010.jpg">
+                                </div>
+                                <div class="info">
+                                    <h3 class="teachername">PSG.TS Đỗ Văn Nhơn</h3>
+                                    <div class="school">Đại học Khoa học tự nhiên TP.HCM</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher12" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80010.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">PSG.TS Đỗ Văn Nhơn</h3>
+                                    <div class="school">Đại học Khoa học tự nhiên TP.HCM</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher13" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80010.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">PSG.TS Đỗ Văn Nhơn</h3>
+                                    <div class="school">Đại học Khoa học tự nhiên TP.HCM</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher14" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80010.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">PSG.TS Đỗ Văn Nhơn</h3>
+                                    <div class="school">Đại học Khoa học tự nhiên TP.HCM</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher15" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80010.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">PSG.TS Đỗ Văn Nhơn</h3>
+                                    <div class="school">Đại học Khoa học tự nhiên TP.HCM</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher16" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80010.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">PSG.TS Đỗ Văn Nhơn</h3>
+                                    <div class="school">Đại học Khoa học tự nhiên TP.HCM</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher17" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80010.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">PSG.TS Đỗ Văn Nhơn</h3>
+                                    <div class="school">Đại học Khoa học tự nhiên TP.HCM</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher18" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80010.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">PSG.TS Đỗ Văn Nhơn</h3>
+                                    <div class="school">Đại học Khoa học tự nhiên TP.HCM</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="table2" class="table">
+                            <div id="teacher21" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher22" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher23" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher24" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher25" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher26" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="table3" class="table">
+                            <div id="teacher31" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 3</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher32" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 3</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher33" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 3</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher34" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 3</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher35" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 3</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher36" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 3</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="table4" class="table">
+                            <div id="teacher41" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 4</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher42" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 4</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher43" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 4</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher44" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 4</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher45" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 4</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher46" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 4</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="table5" class="table">
+                            <div id="teacher51" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 5</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher52" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 5</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher53" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 5</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher54" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 5</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher55" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 5</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher56" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 5</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="table6" class="table">
+                            <div id="teacher61" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 6</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher62" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 6</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher63" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 6</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher64" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 6</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher65" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 6</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher66" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 6</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="table7" class="table">
+                            <div id="teacher71" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 7</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher72" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 7</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher73" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 7</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher74" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 7</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher75" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 7</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher76" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 7</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="table8" class="table">
+                            <div id="teacher81" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 8</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher82" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 8</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher83" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 8</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher84" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 8</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher85" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 8</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                            <div id="teacher86" class="teacher">
+                                <div class="anhthe"><img src="./src/cardImg/80072.jpg"></div>
+                                <div class="info">
+                                    <h3 class="teachername">TS. Nguyễn Minh Sơn 8</h3>
+                                    <div class="school">Đại học UlSan, Hàn Quốc</div>
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer">
+                <div class="address">
+                    <p>
+                        <strong>© 2016 - Trang tuyển sinh - Trường Đại học Công nghệ Thông tin</strong>
+                        <br>
+                        Khu phố 6, P.Linh Trung, Q.Thủ Đức, Tp.Hồ Chí Minh
+                    </p>
+                </div>
+                <div class="phoneweb">
+                    <div class="phone">
+                        <i class="fas fa-phone-alt"></i>
+                        <strong>090.883.1246</strong>
+                    </div>
+                    <div class="mail">
+                        <i class="far fa-envelope"></i>
+                        <strong><a href="mailto:tuyensinh@uit.edu.vn">tuyensinh@uit.edu.vn</a></strong>
+                    </div>
+                </div>
+                <div class="social">
+                    <ul>
+                        <li><a href="https://www.facebook.com/TuyenSinh.UIT/"><img src="./src/social/fb.png"></a></li>
+                        <li><a href="https://www.youtube.com/user/uitvietnam"><img src="./src/social/youtube.png"></a>
+                        </li>
+                        <li><a href="#"><img src="./src/social/teewter.png"></a></li>
+                        <li><a href="https://plus.google.com/u/1/101358157507107625930"><img
+                                    src="./src/social/google.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="contact">
+            <a href="#" style="top: 0px;">
+                <i class="fas fa-phone-square-alt"></i>
+                <span>090.883.1246</span>
+            </a href="#">
+            <a href="#" style="top: 41px;">
+                <i class="fab fa-facebook-messenger"></i>
+                <span>Chat FB</span>
+            </a href="#">
+            <a href="#" style="top: 82px;">
+                <i class="fab fa-facebook-f"></i>
+                <span>Fanpage</span>
+            </a href="#">
+            <a href="#" style="top: 123px;">
+                <i class="fas fa-envelope"></i>
+                <span>Email</span>
+            </a href="#">
+        </div>
+        <label for="menu-check">
+            <div class="menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </label>
+        <input type="checkbox" hidden id="menu-check">
+        <label for="menu-check" class="nav-overlay"></label>
+        <ul class="nav-show">
+            <li class="nav-show-Item">
+                <a href="#">
+                    <span class="icon">
+                        <i class="fas fa-home"></i>
+                    </span>
+                    <span>Trang chủ</span>
+                </a>
+
+            </li>
+            <li class="nav-show-Item">
+                <a href="#">
+                    <span class="icon">
+                        <i class="fas fa-info-circle"></i>
+                    </span>
+                    <span>Giới thiệu</span>
+                </a>
+
+            </li>
+            <li class="nav-show-Item">
+                <a href="#">
+                    <span class="icon">
+                        <i class="fas fa-file-alt"></i>
+                    </span>
+                    <span>Tra cứu<br>GBNH</span>
+                </a>
+
+            </li>
+            <li class="nav-show-Item">
+                <a href="#">
+                    <span class="icon">
+                        <i class="fas fa-file-alt"></i>
+                    </span>
+                    <span>Bảng vàng<br>thành tích</span>
+                </a>
+
+            </li>
+            <li class="nav-show-Item">
+                <a href="#">
+                    <span class="icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </span>
+                    <span>Điểm chuẩn<br>hằng năm</span>
+                </a>
+
+            </li>
+            <li class="nav-show-Item">
+                <a href="#">
+                    <span class="icon">
+                        <i class="fas fa-layer-group"></i>
+                    </span>
+                    <span>Tham quan<br>ảo UIT</span>
+                </a>
+
+            </li>
+            <li class="nav-show-Item">
+                <a href="#">
+                    <span class="icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </span>
+                    <span>Liên hệ</span>
+                </a>
+
+            </li>
+        </ul>
+        <div id="btnGototop"><i class="fas fa-chevron-up"></i></div>
+    </div>
+
+
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() >= 10) {
+                    $(".nav").css("position", "fixed");
+                    $(".nav").css("top", "0");
+                    $(".nav").css("z-index", "100");
+                    $(".nav").css("left", "0%");
+                    $("#btnGototop").fadeIn();
+                }
+                else {
+                    $(".nav").css("position", "absolute");
+                    $(".nav").css("top", "unset");
+                    $(".nav").css("left", "-122px");
+                    $("#btnGototop").fadeOut();
+                }
+            });
+
+            $("#btnGototop").click(function() {
+                $(window).scrollTop(0);
+            });
+
+
+            for (let j = 2; j <= 8; j++) {
+                $("#table" + j).css("display", "none");
+            }
+
+
+            for (let j = 1; j <= 8; j++) {
+                for (let k = 1; k <= 8; k++) {
+                    switch (k) {
+                        case 1:
+                        case 5: $("#teacher" + j + k).css("background-color", "#F27C66"); break;
+                        case 2:
+                        case 6: $("#teacher" + j + k).css("background-color", "#F9CB8F"); break;
+                        case 3:
+                        case 7: $("#teacher" + j + k).css("background-color", "#33C38B"); break;
+                        case 4:
+                        case 8: $("#teacher" + j + k).css("background-color", "#7FB5DD"); break;
+                        default:
+                            $("#teacher" + j + k).css("background-color", "#F27C66");
+                    }
+                }
+            }
+
+            $(".nav-table li").click(function (event) {
+                var id = this.id.charAt(10);
+                for (let i = 1; i <= 8; i++) {
+                    $("#table" + i).css("display", "none");
+                    $("#item-list-" + i).css("background-color", "#FFF");
+                    $("#item-list-" + i).css("border-right", "1px solid #00B1EB");
+                    $("#item-list-" + i).css("color", "#000");
+                    $("#item-list-" + i).css("font-weight", "unset");
+                }
+                $("#table" + id).css("display", "block");
+                $(this).css("background-color", "#F0F8FC");
+                $(this).css("border-right", "1px solid #F0F8FC");
+                $(this).css("color", "#007734");
+                $(this).css("font-weight", "bold");
+            });
+
+        });
+    </script>
+
+</body>
+
+</html>

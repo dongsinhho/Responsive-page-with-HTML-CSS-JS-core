@@ -1,0 +1,560 @@
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+#banner {
+    margin-right: 20px;
+}
+
+.tool {
+    width: 180px;
+    box-sizing: border-box;
+}
+
+.search {
+    position: relative;
+    flex-direction:row;
+    border:1px solid rgb(185, 185, 185);
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.search input:first-child {
+    width: 72%;
+    flex-grow:2;
+    border:none;
+    font-size:14px;
+    margin-left: 8px;
+    margin-bottom: 3px;
+    padding: 1px;
+}
+
+.search input:focus {
+    outline:none;
+}
+
+.search input:last-child {
+    position: absolute;
+    top: 1px;
+    right: 5px;
+}
+
+.login {
+    margin-top: 20px;
+    padding: 5px 0px;
+}
+
+.login i {
+    font-size: small;
+    color: white;
+    border-radius: 15px;
+    background-color: #253E5F;
+    padding: 7px;
+}
+
+.login a{
+    font-size: small;
+    text-decoration: none;
+    color: #000;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: #f5f5f5;
+}
+
+.container {
+    font-size: 14px;
+    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 22px;
+    width: 1000px !important; 
+    position: relative;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.main {
+    background-color: #fff; 
+    padding: 10px;
+}
+
+.nav {
+    list-style: none;
+    width: 121px;   
+    position: absolute;
+    left: -122px;
+    background-color: #fff;
+}
+
+.nav-show{
+    position: fixed;
+    list-style: none;
+    width: 121px;   
+    background-color: #fff;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    transform: translateX(-100%);
+    z-index: 99999;
+    transition: transform linear 0.4s;
+}
+
+.nav-overlay{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.3);
+    display: none;
+}
+
+.nav-show-Item {
+    width: 100%;
+    height: 114px;
+    border: 0.5px solid #eee;
+}
+
+.nav-show-Item span {
+    display: block;
+}
+
+.nav-show-Item i {
+    padding-top: 24px;
+    font-size: 30px;
+    padding-bottom: 14px;
+}
+
+.nav-show-Item i:hover {
+    content:icon;
+}
+
+.nav-show-Item a {
+    text-decoration: none;
+    color: #00B1EB;
+    text-align: center;
+}
+
+.nav-Item {
+    width: 100%;
+    height: 114px;
+    border: 0.5px solid #eee;
+}
+
+.nav-Item span {
+    display: block;
+}
+
+.nav-Item i {
+    padding-top: 24px;
+    font-size: 30px;
+    padding-bottom: 14px;
+}
+
+.nav-Item i:hover {
+    content:icon;
+}
+
+.nav-Item a {
+    text-decoration: none;
+    color: #00B1EB;
+    text-align: center;
+}
+
+.contact {
+    position: fixed;
+    top: 40%;
+    right: 0;
+    z-index: 9999;
+}
+
+.contact a {
+    position: absolute;
+    right: -120px;
+    height: 40px;
+    width: 160px;
+    background: #08c;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+}
+
+.contact a:hover {
+    right: -1px;
+    background: #08c;
+    color: #fff;
+    transition-duration: 1000ms;
+}
+
+
+.contact i {
+    box-sizing: border-box;
+    font-size: x-large;
+    width: 40px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact span {
+    line-height: 40px;
+}
+
+.breadcrumb a {
+    color: #08c;
+    text-decoration: none;
+}
+
+#link {
+    padding: 5px 15px;
+    padding-top: 10px;
+    background-color: #f5f5f5;
+    height: 40px;
+}
+
+.menu {
+    position: fixed;
+    top: 20%;
+    left: 0;
+    z-index: 9999;
+    width: 40px;
+    height: 40px;
+    background: #08c;
+    color: #fff;
+    display: none;
+}
+
+.menu i {
+    display: flex;
+    justify-content: center;
+    line-height: 40px;
+    font-size: x-large;
+}
+
+#menu-check:checked ~ .nav-overlay{
+    display: block;
+}
+
+#menu-check:checked ~ .nav-show {
+    transform: translateX(0%);
+}
+
+#menu-check:checked ~ .menu {
+    display: none;
+}
+
+h1.page-title {
+    color: #B94A48;
+    font-size: 24px;
+    margin: 0 0 8px;
+}
+
+.info-right {
+    text-align: right;
+    margin: 4px 0 12px;
+    
+}
+
+.info-right a {
+    text-decoration: none;
+    color: #08c;
+}
+
+.info-center {
+    text-align: center;
+}
+
+.info-center img{
+    height: 294px;
+}
+
+.info-text {
+    text-align: justify;
+    margin: 4px 0 12px;
+}
+
+blockquote {
+    border-left: 5px solid #eee;
+}
+
+blockquote a{
+    padding-left: 15px;
+    color: rgb(0, 136, 204);
+    text-decoration: none;
+    margin: 0 0 20px;
+}
+
+h2 {
+    color: #820000;
+    font-size: 20px !important; 
+    text-transform: uppercase;
+    border-bottom: solid 3px #DDD;
+    margin-bottom: 1em;
+
+}
+
+.table-content {
+    display: flex;
+    width: 100%;
+}
+
+.nav-table {
+    width: 22%;
+}
+
+.nav-table ul{
+    list-style: none;
+    padding: 0 !important;
+}
+
+
+.item-list {
+    padding: 13px 19px;
+    border: 0.3px solid #00B1EB;
+    width: 100%;
+    font-weight: 520;
+}
+
+#item-list-1{
+    background-color: #F0F8FC;
+    border-right: 1px solid #F0F8FC;
+    color: #007734;
+    font-weight: bold;
+}
+
+#container-table {
+    width: 75%; 
+    padding-left: 10px; 
+    border: 1px solid #BFD0FF;
+    background: #F0F8FC;
+}
+
+
+.teacher {
+    display: flex;
+    width: 48%;
+    float: left;
+    border:1px solid #BFD0FF;
+    border-radius: 5px;
+    margin: 4px;
+    background-color: #F27C66;
+    color: #ffffff;
+}
+
+.anhthe {
+    width: 30%; 
+}
+
+.anhthe img {
+    width: 100%;
+    padding: 1.7px !important;
+}
+
+.info {
+    padding: 0 10px;
+    margin: 10px 0;
+}
+
+.school {
+    text-align: center;
+}
+
+.divider{
+    width: 70%;
+    margin: 0 auto;
+    border-top: 1px solid rgb(255, 255, 255);
+    padding: 0 !important;
+}
+
+h3 {
+    font-size: 18px !important ;
+    margin-bottom: 0px !important;
+    padding: 0 10px !important;
+    text-align: center;
+    margin-top: 8px !important;
+}
+
+.footer {
+    width: 100%;
+    padding-top: 10px;
+    border-top: 2px solid #08c;
+    background-color: #fff;
+    min-height: 70px;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+}
+
+.address{
+    width: 40%;
+    float: left;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.phoneweb {
+    width: 30%;
+    float: left;
+    font-size: 12px;
+    margin-left: 5%;
+}
+.social{
+    width: 20%;
+    float: right;
+}
+
+#btnGototop{
+    background-color: rgba(0,0,0,0.5);
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    text-align: center;
+    line-height: 70px;
+    color: gainsboro;
+    font-size: xx-large;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        width: 952px !important; 
+    }
+    .menu {
+        display: block;
+    }
+    .info-center img{
+        width: 80%;
+        height: auto;
+    }
+    .header {
+        margin: 0 auto;
+        width: 950px;
+    }
+  }
+
+@media only screen and (max-width: 980px) {
+    .container {
+        width: 736px !important; 
+    }
+    .nav-Item {
+        display: none;
+    }
+    .info-center img{
+        width: 98%;
+        height: auto;
+    }
+    .header {
+        margin: 0 auto;
+        width: 720px;
+    }
+    .header img {
+        width: 100%;
+    }
+    #banner {
+        margin-right: 5px;
+    }
+  }
+
+
+
+@media only screen and (max-width: 767px) {
+    .container {
+        width: 95% !important;
+        max-width: 1000px !important; /* Bỏ thuộc tính của bootstrap */
+    }
+    .main{
+        height: 100%;
+    }
+    .header {
+        margin: 0 auto;
+        width: 95%;
+    }
+    .tool {
+        width: 60%;
+    }
+    .header a{
+        justify-content: center;  
+    }
+    .login {
+        margin-top: 0;
+    }
+    .search {
+        margin-top: 0;
+    }
+
+    .table-content {
+        display: block;
+    }
+    .nav-table {
+        width: 100%;
+    }
+
+    #container-table {
+        width: 100%; 
+        padding-left: 0; 
+        background-color: unset;
+        border: unset;
+    }
+
+    .teacher {
+        display: flex;
+        width: 100%;
+        float: left;
+        border:1px solid #BFD0FF;
+    }
+
+
+    .contact{
+        position: fixed;
+        z-index: 9999;
+        display: flex;
+        width: 100%;
+        top: unset;
+        bottom: 0;
+    }
+
+    .contact a {
+        position: static;
+        display: block;
+        background: #08c;
+        color: #fff;
+        height: 60px;      
+        width: 25%;
+        text-align: center;
+        font-size: small;
+    }
+    .contact i {
+        height: 35px;
+        margin: 0 auto;
+    }
+    .contact span {
+        line-height: 0;
+    }
+  }
+
+@media only screen and (max-width: 480px) {
+    .header {
+        margin: 0 auto;
+        width: 95%;
+        display: block;
+    }
+    .tool {
+        width: 60%;
+    }
+  }
+
+
+/* xuống dưới */
